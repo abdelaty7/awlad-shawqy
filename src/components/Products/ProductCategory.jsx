@@ -7,7 +7,7 @@ const ProductCategory = ({ categories, selectedCategory, onSelect }) => {
         <button
           key={cat}
           onClick={() => onSelect(cat)}
-          className={`py-1 px-3 text-[12.5px] sm:text-[13px] rounded-sm font-semibold cursor-pointer duration-200 transition-all ease-in-out ${
+          className={`py-1 px-3 text-[12px] sm:text-[13px] rounded-sm font-semibold cursor-pointer duration-200 transition-all ease-in-out ${
             selectedCategory === cat
               ? 'bg-indigo-950 text-gray-100'
               : 'bg-gray-200 text-indigo-950 hover:bg-gray-300'

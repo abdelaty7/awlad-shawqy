@@ -34,6 +34,7 @@ const Products = () => {
         </div>
       </div>
 
+      <SearchBar searchTerm={searchTerm} onSearch={setSearchTerm} />
       {/* التصنيفات */}
       <ProductCategory
         categories={uniqueCategories}
@@ -41,8 +42,6 @@ const Products = () => {
         onSelect={setSelectedCategory}
       />
 
-      <SearchBar searchTerm={searchTerm} onSearch={setSearchTerm} />
-      {/* البحث */}
 
       {/* عرض المنتجات */}
       <div className="flex flex-wrap gap-5.5 justify-start px-7 sm:px-15 pt-2">
@@ -51,7 +50,7 @@ const Products = () => {
         ))}
       </div>
 
-      <div className='px-15 flex justify-center pb-15 mt-15 text-[14px] font-semibold text-indigo-950/75'>
+      <div className='px-15 flex justify-center pb-15 mt-15 text-[11px] sm:text-[14px] font-semibold text-indigo-950/75'>
         <p>للمزيد من المنتجات قم بزيارة أقرب فرع من فروعنا</p>
       </div>
     </>
