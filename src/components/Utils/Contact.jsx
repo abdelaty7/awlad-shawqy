@@ -28,7 +28,7 @@ const Contact = () => {
             <div className='py-1 px-2.5 mb-0.5 sm:mb-0 rounded-full border-3 border-amber-400 bg-gray-100 z-1'>
               <FontAwesomeIcon icon={faLocationDot} className="text-indigo-900 mt-1" style={{ fontSize: '23px' }} />
             </div>
-            <div className='py-2 rounded-full w-full sm:w-91 -mr-12 flex items-center bg-indigo-900'>
+            <div className='py-2.5 sm:py-2 rounded-full w-full sm:w-91 -mr-12 flex items-center bg-indigo-900'>
               <span className='text-white text-[11.5px] sm:text-[13.5px] pr-12.5 sm:pr-14 sm:pl-6'> حلوان، الشارع الغربي، بجوار نادي مركز شباب غرب </span>
             </div>
           </div>
@@ -36,7 +36,7 @@ const Contact = () => {
             <div className='py-1 px-2.5 mb-0.5 sm:mb-0 rounded-full border-3 border-amber-400 bg-gray-100 z-1'>
               <FontAwesomeIcon icon={faLocationDot} className="text-indigo-900 mt-1" style={{ fontSize: '23px' }} />
             </div>
-            <div className='py-2 rounded-full w-full sm:w-91 -mr-12 flex items-center bg-indigo-900'>
+            <div className='py-2.5 sm:py-2 rounded-full w-full sm:w-91 -mr-12 flex items-center bg-indigo-900'>
               <span className='text-white text-[11.5px] sm:text-[13.5px] pr-12.5 sm:pr-14 sm:pl-6'> حلوان، شارع أحمد راغب باشا، تقاطع شارع البرهان </span>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Contact = () => {
             <div className='py-1 px-2.5 mb-0.5 sm:mb-0 rounded-full border-3 border-amber-400 bg-gray-100 z-1'>
               <FontAwesomeIcon icon={faLocationDot} className="text-indigo-900 mt-1" style={{ fontSize: '23px' }} />
             </div>
-            <div className='py-2 rounded-full w-full sm:w-91 -mr-12 flex items-center bg-indigo-900'>
+            <div className='py-2.5 sm:py-2 rounded-full w-full sm:w-91 -mr-12 flex items-center bg-indigo-900'>
               <span className='text-white text-[11.5px] sm:text-[13.5px] pr-12.5 sm:pr-14 sm:pl-6'> حلوان، شارع مصطفى صفوت، تقاطع شارع البرهان </span>
             </div>
           </div>

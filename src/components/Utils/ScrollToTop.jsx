@@ -51,7 +51,7 @@ const ScrollToTop = () => {
       }}
     >
       <FontAwesomeIcon icon={faArrowUp} />
-      اطلع
+      للأعلى
     </button>
   );
 };

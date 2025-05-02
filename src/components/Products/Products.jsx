@@ -44,7 +44,7 @@ const Products = () => {
 
 
       {/* عرض المنتجات */}
-      <div className="flex flex-wrap gap-5.5 justify-start px-5 sm:px-15 pt-2">
+      <div className="flex flex-wrap gap-4.5 sm:gap-5.5 justify-center px-5 sm:px-15 pt-2">
         {filteredProducts.map(product => (
           <ProductCard key={product.id + product.title} {...product} />
         ))}

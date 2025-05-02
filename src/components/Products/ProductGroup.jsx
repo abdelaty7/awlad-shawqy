@@ -3,8 +3,8 @@ import ProductCard from './ProductCard';
 
 const ProductGroup = ({ products }) => {
   return (
-    <div className="w-full px-4 sm:px-6 md:px-8 lg:px-10 max-w-7xl mx-auto">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 sm:gap-6">
+    <div className="w-full px-4 sm:px-8 md:px-12 lg:px-15 mx-auto py-12">
+      <div>
         {products.map((product) => (
           <ProductCard key={product.id} {...product} />
         ))}
