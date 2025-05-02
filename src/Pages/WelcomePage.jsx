@@ -15,7 +15,7 @@ const WelcomePage = () => {
       <Main />
       <About />
       <Goods />
-      <Certificate />
+      {/* <Certificate /> */}
       <QandA />
       <Contact />
       <Footer />

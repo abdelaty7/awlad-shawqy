@@ -39,7 +39,6 @@ const Navbar = () => {
             <li><a href="#main" className="cursor-pointer hover:opacity-75">الصفحة الرئيسية</a></li>
             <li><a href="#about" className="cursor-pointer hover:opacity-75">من نحن</a></li>
             <li><a href="#goods" className="cursor-pointer hover:opacity-75">مميزاتنا</a></li>
-            <li><a href="#cert" className="cursor-pointer hover:opacity-75">شهادة إعتماد</a></li>
             <li><a href="#qna" className="cursor-pointer hover:opacity-75">أسئلة شائعة</a></li>
             <li><a href="#contact" className="cursor-pointer hover:opacity-75">فروعنا</a></li>
           </ul>
@@ -67,7 +66,6 @@ const Navbar = () => {
           <li><a href="#main" className="hover:opacity-75">الصفحة الرئيسية</a></li>
           <li><a href="#about" className="hover:opacity-75">من نحن</a></li>
           <li><a href="#goods" className="hover:opacity-75">مميزاتنا</a></li>
-          <li><a href="#cert" className="hover:opacity-75">شهادة إعتماد</a></li>
           <li><a href="#qna" className="hover:opacity-75">أسئلة شائعة</a></li>
           <li><a href="#contact" className="hover:opacity-75">فروعنا</a></li>
         </ul>
