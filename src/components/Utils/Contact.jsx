@@ -6,22 +6,22 @@ const Contact = () => {
   return (
     <div className='bg-gray-200 scroll-mt-26 sm:scroll-mt-16' id='contact'>
       {/* عنوان القسم */}
-      <div className='flex justify-center items-center gap-15 pt-16 pb-10 sm:pb-12'>
+      <div className='flex justify-center items-center gap-7 sm:gap-15 pt-16 pb-10 sm:pb-12'>
       <div className='flex items-center flex-1'>
         <div className='border-b-2 h-0.5 w-full border-gray-300'></div>
-        <div className='h-3 w-3 rounded-full bg-amber-400 ml-2'></div>
+        <div className='h-2 w-2 sm:h-3 sm:w-3 rounded-full bg-amber-400 ml-2'></div>
       </div>
-      <p className='text-[19px] sm:text-[22px] font-extrabold text-indigo-950 whitespace-nowrap'>
+      <p className='text-[18.5px] sm:text-[22px] font-extrabold text-indigo-950 whitespace-nowrap'>
         فروعنا
       </p>
       <div className='flex items-center flex-1'>
-        <div className='h-3 w-3 rounded-full bg-amber-400 mr-2'></div>
+        <div className='h-2 w-2 sm:h-3 sm:w-3 rounded-full bg-amber-400 mr-2'></div>
         <div className='border-b-2 h-0.5 w-full border-gray-300'></div>
       </div>
     </div>
 
       {/* محتوى الفروع */}
-      <div className='flex flex-col sm:flex-row sm:px-15 pb-15 sm:gap-7'>
+      <div className='flex flex-col sm:flex-row sm:px-15 pb-10 sm:pb-15 sm:gap-7'>
         {/* القسم الأول */}
         <div className='flex flex-col gap-2 sm:gap-4 sm:w-3/7 mx-7 sm:h-72 mb-10 sm:mb-0'>
           <div className='flex gap-1.5 items-center'>
@@ -29,7 +29,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faLocationDot} className="text-indigo-900 mt-1" style={{ fontSize: '23px' }} />
             </div>
             <div className='py-2 rounded-full w-full sm:w-91 -mr-12 flex items-center bg-indigo-900'>
-              <span className='text-white text-[13px] sm:text-[13.5px] pr-14 pl-6'> حلوان، الشارع الغربي، بجوار نادي مركز شباب غرب </span>
+              <span className='text-white text-[12.2px] sm:text-[13.5px] pr-14 pl-6'> حلوان، الشارع الغربي، بجوار نادي مركز شباب غرب </span>
             </div>
           </div>
           <div className='flex gap-1.5 items-center'>
@@ -37,7 +37,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faLocationDot} className="text-indigo-900 mt-1" style={{ fontSize: '23px' }} />
             </div>
             <div className='py-2 rounded-full w-full sm:w-91 -mr-12 flex items-center bg-indigo-900'>
-              <span className='text-white text-[13px] sm:text-[13.5px] pr-14 pl-6'> حلوان، شارع أحمد راغب باشا، تقاطع شارع البرهان </span>
+              <span className='text-white text-[12.2px] sm:text-[13.5px] pr-14 pl-6'> حلوان، شارع أحمد راغب باشا، تقاطع شارع البرهان </span>
             </div>
           </div>
           <div className='flex gap-1.5 items-center'>
@@ -45,7 +45,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faLocationDot} className="text-indigo-900 mt-1" style={{ fontSize: '23px' }} />
             </div>
             <div className='py-2 rounded-full w-full sm:w-91 -mr-12 flex items-center bg-indigo-900'>
-              <span className='text-white text-[13px] sm:text-[13.5px] pr-14 pl-6'> حلوان، شارع مصطفى صفوت، تقاطع شارع البرهان </span>
+              <span className='text-white text-[12.2px] sm:text-[13.5px] pr-14 pl-6'> حلوان، شارع مصطفى صفوت، تقاطع شارع البرهان </span>
             </div>
           </div>
           <div className='hidden sm:flex w-full mt-3.5 border-b-2 border-amber-400/65'></div>

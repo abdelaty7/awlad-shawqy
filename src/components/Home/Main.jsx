@@ -2,9 +2,9 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <div className='flex flex-col sm:flex-row px-7 sm:px-15 pb-15 sm:pb-10 pt-37 sm:pt-25' id='main'>
+    <div className='flex flex-col sm:flex-row px-7 sm:px-15 pb-15 sm:pb-10 pt-36.5 sm:pt-25' id='main'>
       <div className='flex-1/2 h-130 flex justify-center items-center'>
-        <img src="pic2.svg" className='w-64 sm:w-90 mb-5' />
+        <img src="pic2.svg" className='w-65 sm:w-90 mb-5' />
       </div>
       <div className='flex-1/2 h-130 flex flex-col justify-center'>
         <p className='text-indigo-950/95 font-extrabold text-[23px] sm:text-[32px] mb-0.5 sm:mb-0'>أولاد شوقي..</p>

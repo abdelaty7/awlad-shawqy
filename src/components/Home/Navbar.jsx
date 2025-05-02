@@ -19,16 +19,16 @@ const Navbar = () => {
         {/* Logo + Menu Button + Products (Mobile) */}
         <div className='flex justify-between items-center w-full sm:w-auto'>
           <a href="#main">
-            <img src="/public/logo-i.svg" alt='اللوجو' className='w-23 mt-0.5 sm:mt-0 sm:w-24' />
+            <img src="/public/logo-i.svg" alt='اللوجو' className='w-22 mt-0.5 sm:mt-0 sm:w-24' />
           </a>
           <div className="flex items-center gap-4 sm:hidden mt-1">
             <Link to='/products'>
-              <div className='px-2.5 py-1.5 bg-amber-400 hover:bg-amber-500/85 rounded-sm cursor-pointer transition-all duration-300 ease-in-out text-[15px] font-bold text-indigo-900'>
+              <div className='px-2.5 py-1.5 bg-amber-400 hover:bg-amber-500/85 rounded-sm cursor-pointer transition-all duration-300 ease-in-out text-[13px] font-bold text-indigo-900'>
                 المنتجات
               </div>
             </Link>
             <button onClick={() => setMenuOpen(!menuOpen)}>
-              {menuOpen ? <X size={26} /> : <Menu size={26} />}
+              {menuOpen ? <X size={25} /> : <Menu size={25} />}
             </button>
           </div>
         </div>
@@ -63,7 +63,7 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
-        <ul className="fixed left-8 top-21 w-48 bg-white shadow-md rounded-md py-4.5 px-4 flex flex-col gap-3.5 text-[14.95px] font-semibold z-50 sm:hidden">
+        <ul className="fixed left-5 top-23 w-48 bg-white shadow-md rounded-md py-4.5 px-4 flex flex-col gap-3.5 text-[14.95px] font-semibold z-50 sm:hidden">
           <li><a href="#main" className="hover:opacity-75">الصفحة الرئيسية</a></li>
           <li><a href="#about" className="hover:opacity-75">من نحن</a></li>
           <li><a href="#goods" className="hover:opacity-75">مميزاتنا</a></li>

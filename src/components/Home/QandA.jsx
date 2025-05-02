@@ -10,13 +10,13 @@ const QandA = () => {
       <div className='flex justify-center items-center gap-7 sm:gap-15 pt-25 pb-10 sm:pb-15 scroll-mt-20 sm:scroll-mt-10' id='qna'>
         <div className='flex items-center flex-1'>
           <div className='border-b-2 h-0.5 w-full border-gray-300'></div>
-          <div className='h-3 w-3 rounded-full bg-amber-400 ml-2'></div>
+          <div className='h-2 w-2 sm:h-3 sm:w-3 rounded-full bg-amber-400 ml-2'></div>
         </div>
-        <p className='text-[19px] sm:text-[22px] font-extrabold text-indigo-950 whitespace-nowrap'>
+        <p className='text-[18.5px] sm:text-[22px] font-extrabold text-indigo-950 whitespace-nowrap'>
           أسئلة و <span className='text-amber-400'>أجوبه</span> شائعة
         </p>
         <div className='flex items-center flex-1'>
-          <div className='h-3 w-3 rounded-full bg-amber-400 mr-2'></div>
+          <div className='h-2 w-2 sm:h-3 sm:w-3 rounded-full bg-amber-400 mr-2'></div>
           <div className='border-b-2 h-0.5 w-full border-gray-300'></div>
         </div>
       </div>
@@ -35,7 +35,7 @@ const QandA = () => {
             borderBottom: '2px solid #ffcd2f',
           }}
         >
-          <span className='text-[14.9px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
+          <span className='text-[13.5px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
             ليه الموقع دا معمول؟
           </span>
         </AccordionSummary>
@@ -58,7 +58,7 @@ const QandA = () => {
             borderBottom: '2px solid #ffcd2f',
           }}
         >
-          <span className='text-[14.9px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
+          <span className='text-[13.5px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
             ليه أول ما دخلت الموقع مفيش منتجات قدامي على طول؟
           </span>
         </AccordionSummary>
@@ -81,7 +81,7 @@ const QandA = () => {
             borderBottom: '2px solid #ffcd2f',
           }}
         >
-          <span className='text-[14.9px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
+          <span className='text-[13.5px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
             طب ليه مش كاتبين الأسعار؟
           </span>
         </AccordionSummary>
@@ -104,7 +104,7 @@ const QandA = () => {
             borderBottom: '2px solid #ffcd2f',
           }}
         >
-          <span className='text-[14.9px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
+          <span className='text-[13.5px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
             طب ليه الأسعار مش معروضة بشكل عام زي باقي المواقع؟
           </span>
         </AccordionSummary>
@@ -127,7 +127,7 @@ const QandA = () => {
             borderBottom: '2px solid #ffcd2f',
           }}
         >
-          <span className='text-[14.9px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
+          <span className='text-[13.5px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
             هل ممكن أعرف من الموقع المنتج متوفر ولا لأ؟
           </span>
         </AccordionSummary>
@@ -150,7 +150,7 @@ const QandA = () => {
             borderBottom: '2px solid #ffcd2f',
           }}
         >
-          <span className='text-[14.9px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
+          <span className='text-[13.5px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
             هل الموقع بيبيع أونلاين؟
           </span>
         </AccordionSummary>
@@ -173,7 +173,7 @@ const QandA = () => {
             borderBottom: '2px solid #ffcd2f',
           }}
         >
-          <span className='text-[14.9px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
+          <span className='text-[13.5px] sm:text-[15px] my-0.5 font-semibold text-indigo-950'>
             إزاي أقدر أعرف أقرب فرع ليكم؟
           </span>
         </AccordionSummary>
