@@ -31,7 +31,7 @@ const ScrollToTop = () => {
       style={{
         zIndex: '1000',
         position: 'fixed',
-        fontSize: '12px',
+        fontSize: '11px',
         fontWeight: '600',
         bottom: '20px',
         right: '20px',

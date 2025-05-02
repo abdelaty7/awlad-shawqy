@@ -18,8 +18,8 @@ const Certificate = () => {
         </div>
       </div>
 
-      <div className='flex flex-col sm:flex-row justify-end mx-7 sm:mx-15 items-center gap-28 sm:pt-4 '>
-        <div className='w-75 sm:w-135 bg-gray-300 rounded-sm sm:ml-17'>
+      <div className='flex flex-col sm:flex-row justify-end mx-7 sm:mx-0 items-center gap-28 sm:pt-4 '>
+        <div className='w-70 sm:w-135 bg-gray-300 rounded-sm sm:ml-17'>
           <img src="cert.jpg" />
         </div>
         <div className='hidden sm:flex md-w-60 sm:w-120 h-10 sm:h-55 bg-amber-400/80 rounded-br-full rounded-tr-full mt-5'></div>

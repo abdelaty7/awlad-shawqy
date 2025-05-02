@@ -63,7 +63,7 @@ const Navbar = () => {
 
       {/* Mobile Dropdown Menu */}
       {menuOpen && (
-        <ul className="fixed left-5 top-23 w-48 bg-white shadow-md rounded-md py-4.5 px-4 flex flex-col gap-3.5 text-[14.95px] font-semibold z-50 sm:hidden">
+        <ul className="fixed left-5 top-21 w-48 bg-white shadow-md rounded-md py-4.5 px-4 flex flex-col gap-3.5 text-[14px] font-semibold z-50 sm:hidden">
           <li><a href="#main" className="hover:opacity-75">الصفحة الرئيسية</a></li>
           <li><a href="#about" className="hover:opacity-75">من نحن</a></li>
           <li><a href="#goods" className="hover:opacity-75">مميزاتنا</a></li>

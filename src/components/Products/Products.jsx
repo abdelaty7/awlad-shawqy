@@ -25,7 +25,7 @@ const Products = () => {
           <div className='border-b-2 h-0.5 w-full border-gray-300'></div>
           <div className='h-3 w-3 rounded-full bg-amber-400 ml-2'></div>
         </div>
-        <p className='text-[20px] sm:text-[21px] font-extrabold text-indigo-950 whitespace-nowrap'>
+        <p className='text-[19px] sm:text-[21px] font-extrabold text-indigo-950 whitespace-nowrap'>
           جميع <span className='text-amber-400'>منتجاتنا</span>
         </p>
         <div className='flex items-center flex-1'>
