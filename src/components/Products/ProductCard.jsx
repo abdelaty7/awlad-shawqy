@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductCard = ({ title, description, image }) => {
   return (
-    <div className="bg-white border border-indigo-100 rounded-2xl shadow-sm w-38 sm:w-[230px] overflow-hidden hover:shadow-xl transition-shadow duration-300">
+    <div className="bg-white border border-indigo-100 rounded-2xl shadow-sm w-35.5 sm:w-[230px] -m-1 overflow-hidden hover:shadow-xl transition-shadow duration-300">
       <img
         src={image}
         alt={title}

@@ -23,13 +23,13 @@ const Products = () => {
       <div className='flex justify-center items-center gap-7 sm:gap-15 pt-33 sm:pt-25 pb-8 sm:pb-10'>
         <div className='flex items-center flex-1'>
           <div className='border-b-2 h-0.5 w-full border-gray-300'></div>
-          <div className='h-3 w-3 rounded-full bg-amber-400 ml-2'></div>
+          <div className='h-2 w-2 sm:h-3 sm:w-3 rounded-full bg-amber-400 ml-2'></div>
         </div>
-        <p className='text-[19px] sm:text-[21px] font-extrabold text-indigo-950 whitespace-nowrap'>
+        <p className='text-[18.5px] sm:text-[22px] font-extrabold text-indigo-950 whitespace-nowrap'>
           جميع <span className='text-amber-400'>منتجاتنا</span>
         </p>
         <div className='flex items-center flex-1'>
-          <div className='h-3 w-3 rounded-full bg-amber-400 mr-2'></div>
+          <div className='h-2 w-2 sm:h-3 sm:w-3 rounded-full bg-amber-400 mr-2'></div>
           <div className='border-b-2 h-0.5 w-full border-gray-300'></div>
         </div>
       </div>
@@ -44,7 +44,7 @@ const Products = () => {
 
 
       {/* عرض المنتجات */}
-      <div className="flex flex-wrap gap-5.5 justify-start px-7 sm:px-15 pt-2">
+      <div className="flex flex-wrap gap-5.5 justify-start px-5 sm:px-15 pt-2">
         {filteredProducts.map(product => (
           <ProductCard key={product.id + product.title} {...product} />
         ))}

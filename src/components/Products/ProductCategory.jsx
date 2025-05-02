@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductCategory = ({ categories, selectedCategory, onSelect }) => {
   return (
-    <div className="flex gap-3 flex-wrap justify-center mx-7 sm:mx-15 mb-7 sm:mb-5">
+    <div className="flex gap-3 flex-wrap justify-center mx-5 sm:mx-15 mb-7 sm:mb-5">
       {['الكل', ...categories].map((cat) => (
         <button
           key={cat}

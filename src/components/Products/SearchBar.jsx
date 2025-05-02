@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchBar = ({ searchTerm, onSearch }) => {
   return (
-    <div className="flex justify-center px-7 sm:px-15 mb-5">
+    <div className="flex justify-center px-5 sm:px-15 mb-5">
       <input
         type="text"
         placeholder="ابحث باسم المنتج..."

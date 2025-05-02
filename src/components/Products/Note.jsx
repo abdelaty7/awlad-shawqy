@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Note = () => {
   return (
-    <div className='bg-gray-200 py-4.5 px-7 sm:px-15 text-[11px] sm:text-[12px] font-semibold flex gap-15 justify-between fixed w-full shadow-sm'>
+    <div className='bg-gray-200 py-4.5 px-5 sm:px-15 text-[11px] sm:text-[12px] font-semibold flex gap-15 justify-between fixed w-full shadow-sm'>
       <p className='hidden sm:flex'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
       <p className='text-gray-500 transition-all duration-300 ease-in-out'>الموقع مخصص فقط لعرض المنتجات للتسهيل على العملاء، ولا يهدف للبيع أو الربح الإلكتروني</p>
       <Link to="/">
