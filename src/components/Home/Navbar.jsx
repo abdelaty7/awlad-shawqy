@@ -19,7 +19,7 @@ const Navbar = () => {
         {/* Logo + Menu Button + Products (Mobile) */}
         <div className='flex justify-between items-center w-full sm:w-auto'>
           <a href="#main">
-            <img src="/public/logo-i.svg" alt='اللوجو' className='w-22 mt-0.5 sm:mt-0 sm:w-24' />
+            <img src="logo-i.svg" alt='اللوجو' className='w-22 mt-0.5 sm:mt-0 sm:w-24' />
           </a>
           <div className="flex items-center gap-4 sm:hidden mt-1">
             <Link to='/products'>
