@@ -45,7 +45,7 @@ const Contact = () => {
               <FontAwesomeIcon icon={faLocationDot} className="text-indigo-900 mt-1" style={{ fontSize: '23px' }} />
             </div>
             <div className='py-2.5 sm:py-2 rounded-full w-full sm:w-91 -mr-12 flex items-center bg-indigo-900'>
-              <span className='text-white text-[11.5px] sm:text-[13.5px] pr-12.5 sm:pr-14 sm:pl-6'> حلوان، شارع مصطفى صفوت، تقاطع شارع البرهان </span>
+              <span className='text-white text-[11.5px] sm:text-[13.5px] pr-12.5 sm:pr-14 sm:pl-6'> حلوان، شارع مصطفى صفوت   </span>
             </div>
           </div>
           <div className='hidden sm:flex w-full mt-3.5 border-b-2 border-amber-400/65'></div>

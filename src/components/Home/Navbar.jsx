@@ -120,7 +120,7 @@ const Navbar = () => {
                 <FontAwesomeIcon icon={faLocationDot} className="text-indigo-700 mt-1" style={{ fontSize: '19px' }} />
               </div>
               <div className='h-10 rounded-full w-full -mr-11 flex items-center border border-indigo-700'>
-                <span className='text-indigo-900 font-semibold text-[11.5px] pr-14 pl-6'> حلوان، شارع مصطفى صفوت، تقاطع شارع البرهان </span>
+                <span className='text-indigo-900 font-semibold text-[11.5px] pr-14 pl-6'> حلوان، شارع مصطفى صفوت   </span>
               </div>
             </div>
           </div>
