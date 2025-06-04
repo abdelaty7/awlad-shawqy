@@ -6,7 +6,7 @@ const ProductCard = ({ title, description, image }) => {
       <img
         src={image}
         alt={title}
-        className="w-[140px] sm:w-[190px] h-[110px] sm:h-[230px] mt-3.5 sm:mt-0 mb-3 object-cover"
+        className="sm:w-[190px] h-[110px] sm:h-[230px] mt-3.5 sm:mt-0 mb-3 object-cover"
       />
       <div className="px-3 sm:px-4 w-[138px] sm:w-[220px]">
         <h2 className="text-indigo-900 text-[12px] sm:text-[14.5px] font-bold mb-0.5">{title}</h2>
